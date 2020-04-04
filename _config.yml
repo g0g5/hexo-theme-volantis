@@ -16,7 +16,7 @@ style:
     width: auto # auto, max
     effect: [shadow, blur] # [shadow, floatable, blur]
   sidebar:
-    effect: [shadow] # [shadow, floatable, blur]
+    effect: [shadow, blur] # [shadow, floatable, blur]
   body:
     effect: [shadow] # [shadow, floatable, blur]
     highlight:
@@ -266,7 +266,7 @@ widget:
   # toc widget (valid only in articles)
   toc:
     class: toc
-    display: [desktop, mobile] # [desktop, mobile]
+    display: [desktop] # [desktop, mobile]
     header:
       icon: fas fa-list
       title: 本文目录
