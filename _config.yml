@@ -92,7 +92,7 @@ cover:
     others: false # can be written in front-matter 'cover: true'
   logo: # https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/256/google_logo.png
   title: "SITE:g0g5."
-  subtitle: 'The things he made.'
+  subtitle: 'And the things he made.'
   search: # search bar placeholder
   features:
     - name: 文档
@@ -151,7 +151,7 @@ layout:
     # 列表中每一篇文章的meta信息
     meta: [title, author, category, date, wordcount, top]
     # 列表类页面的侧边栏
-    sidebar: [ category, tagcloud]
+    sidebar: [blogger, category, tagcloud]
     # read more button
     readmore: Read More <i class="fas fa-chevron-right"></i>
   # 页面布局
